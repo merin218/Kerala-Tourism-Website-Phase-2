@@ -1,0 +1,88 @@
+:root{
+    --mainBlue:rgb(0, 57, 115)
+}
+
+body{
+        background-image: url('img/logo6.jpeg');
+        background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.container.paddingcorrection{
+    padding:0px 0px;
+}
+#mainnavbar a{
+    color: white;
+}
+#mainnavbar a:hover{
+    color: rgb(14, 204, 14);
+}
+.marginTop{
+    margin-top: 120px;
+}
+
+#mainnavbar{
+    background-color:var(--mainBlue);
+    transition: background-color 1000ms;
+
+}
+
+
+/* .logo{
+    width: 200px;
+} */
+@media(max-width:1000px){
+    .logo img{
+        width:200px;
+    }
+}
+.carousel-item img{
+    height:400px;
+}
+
+@media(max-width:576px){
+    .carousel-item img{
+        height:300px;
+    }
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    height:60px ;
+    background-color: var(--mainBlue);
+    color: white;
+    width: 100%;
+    overflow: hidden;
+}
+.footer p{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.minHeight{
+    min-height: calc(100vh - 114px);
+}
+html{
+    position:relative;
+}
+
+
+
+
+  /*-----About-------*/
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: black
+}
+#about-content
+{
+	padding-top: 20px;
+}
+
+
+ 

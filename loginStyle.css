@@ -1,0 +1,63 @@
+*{
+    font-family: montserrat;
+}
+.login-form{
+    width:100%;
+    background-color: #f1f1f1;
+    height: 65vh;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    
+}
+.textb{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 20px 0;
+}
+.textb.borderColor{
+    border-bottom: 2px solid #06edf5;
+}
+
+.textb input{
+    font-size: 15px;
+    color: #333;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+    
+}
+
+
+.logbtn{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: DodgerBlue;
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+  }
+  
+  .logbtn:hover{
+    background-position: right;
+  }
+  
+  .bottom-text{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .formhead{
+    font-size: 42px;
+    background: dodgerblue;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
